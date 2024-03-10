@@ -7,7 +7,7 @@ import plotly.figure_factory as ff
 
 
 st.header("Welcome to Manohar's Data Visualization")
-data = pd.read_csv("C:/PYTHON_DS/STREAMLIT/NANNA/LPI _ EPI updated (5).csv")
+data = pd.read_csv("LPI _ EPI updated (5).csv")
 df = pd.DataFrame(data)
 st.dataframe(df)
 
